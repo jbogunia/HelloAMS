@@ -1,0 +1,6 @@
+framework module Pods_HelloAMS {
+  umbrella header "Pods-HelloAMS-umbrella.h"
+
+  export *
+  module * { export * }
+}
