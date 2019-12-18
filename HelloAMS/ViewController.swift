@@ -9,6 +9,7 @@
 import UIKit
 import SwiftSpinner
 import Alamofire
+import Loaf
 
 class ViewController: UIViewController {
     
@@ -37,13 +38,14 @@ class ViewController: UIViewController {
                     let text = JSON["text"] as! String;
                     self.factTextView.text = text;
                 }
-            case .failure(let error): break
+            case .failure(let error):
+                Loaf("Something went wrong", state: .error, sender: self).show();
+                break
             }
             DispatchQueue.main.asyncAfter(deadline: .now() + 2 , execute:  {
-                SwiftSpinner.hide()
+                SwiftSpinner.hide();
+                Loaf("Fact downloading completed!", state: .success, sender: self).show()
             })
-            
-            
             
         }
     }

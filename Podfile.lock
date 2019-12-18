@@ -1,24 +1,24 @@
 PODS:
   - Alamofire (5.0.0-rc.3)
-  - Sejima (1.0.0)
+  - Loaf (0.5.0)
   - SwiftSpinner (2.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-rc.3)
-  - Sejima
+  - Loaf
   - SwiftSpinner
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - Sejima
+    - Loaf
     - SwiftSpinner
 
 SPEC CHECKSUMS:
   Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
-  Sejima: 3489c896346ee147a4beb79b9ed732f3263db492
+  Loaf: 0800b444431366bc395d54267975d4ad4ad5c99c
   SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
 
-PODFILE CHECKSUM: eb88271da583789ea2a766634b6661a86dbbb990
+PODFILE CHECKSUM: c0aa0ab1bb56d2030e0371b8dbe59ffd303b9c5f
 
 COCOAPODS: 1.8.4
