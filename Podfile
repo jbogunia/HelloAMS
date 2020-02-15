@@ -7,6 +7,7 @@ target 'HelloAMS' do
 
   # Pods for HelloAMS
 pod 'Alamofire', '~> 5.0.0-rc.3'
-pod "SwiftSpinner"
-pod 'Loaf'
+pod 'SwiftSpinner'
+pod "BRYXBanner"
+pod 'LoadingShimmer'
 end

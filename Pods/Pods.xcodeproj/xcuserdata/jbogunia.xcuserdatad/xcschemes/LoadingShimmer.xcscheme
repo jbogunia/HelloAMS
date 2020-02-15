@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E12D5ED3565D8FCC3DD9B9DD89246A9"
-               BuildableName = "Loaf.framework"
-               BlueprintName = "Loaf"
+               BlueprintIdentifier = "1841110C37EE3A283BD4133B584480DE"
+               BuildableName = "LoadingShimmer.framework"
+               BlueprintName = "LoadingShimmer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

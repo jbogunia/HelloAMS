@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "Loaf.h"
 
-FOUNDATION_EXPORT double LoafVersionNumber;
-FOUNDATION_EXPORT const unsigned char LoafVersionString[];
+FOUNDATION_EXPORT double BRYXBannerVersionNumber;
+FOUNDATION_EXPORT const unsigned char BRYXBannerVersionString[];
 

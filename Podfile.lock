@@ -1,24 +1,28 @@
 PODS:
-  - Alamofire (5.0.0-rc.3)
-  - Loaf (0.5.0)
+  - Alamofire (5.0.0)
+  - BRYXBanner (0.8.4)
+  - LoadingShimmer (1.0.3)
   - SwiftSpinner (2.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-rc.3)
-  - Loaf
+  - BRYXBanner
+  - LoadingShimmer
   - SwiftSpinner
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - Loaf
+    - BRYXBanner
+    - LoadingShimmer
     - SwiftSpinner
 
 SPEC CHECKSUMS:
-  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
-  Loaf: 0800b444431366bc395d54267975d4ad4ad5c99c
+  Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
+  BRYXBanner: 4fbd266f96ce000e4c6cc9a0558c446bd88d9801
+  LoadingShimmer: dd681218498ec9648f572b845a7299b9c62e8e30
   SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
 
-PODFILE CHECKSUM: c0aa0ab1bb56d2030e0371b8dbe59ffd303b9c5f
+PODFILE CHECKSUM: 5f934fd9715a3568da7bbc1e782cc7639282c577
 
 COCOAPODS: 1.8.4
